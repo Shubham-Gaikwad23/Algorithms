@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class AddWithoutArithmetic
+public class AddWithoutArithmeticOperators
 {
 	public static void main(String[] args)
 	{
