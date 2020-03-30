@@ -1,2 +1,2 @@
 # Algorithms
-Collection of algorithms written in Java. 
+Collection of algorithms.
