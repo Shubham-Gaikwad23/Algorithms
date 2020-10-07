@@ -5,13 +5,13 @@ while t:
     a = [int(x) for x in input().split()]
     count = {}
     for i in a:
-        if count.get(i) == None:
+        if count.get(i) is None:
             count[i] = 1
         else:
             count[i] = count[i] + 1
-            if count[i] > n/2:
+            if count[i] > n / 2:
                 print(i)
                 break
     else:
         print(-1)
-    t=t-1
+    t = t - 1

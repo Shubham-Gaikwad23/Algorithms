@@ -1,4 +1,5 @@
 // https://practice.geeksforgeeks.org/problems/power-of-2/0
+// Time Complexity: O(1)
 
 #include <stdio.h>
 #include <math.h>
