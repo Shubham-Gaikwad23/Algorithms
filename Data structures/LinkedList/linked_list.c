@@ -139,6 +139,19 @@ int insert_at(linked_list *lst, unsigned idx, int key) {
     return TRUE;
 }
 
+void reverse(linked_list *lst) {
+    node *p, *c, *n;
+
+    for (p = NULL, c = lst->head;
+         c != NULL;
+         p = c, c = n) {
+        
+        n = c->next;
+        c->next = p;
+        c->prev = n;
+    }
+}
+
 int main()
 {
     linked_list lst;
